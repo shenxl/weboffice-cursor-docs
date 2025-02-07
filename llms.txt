@@ -1,9 +1,17 @@
-# WPS WebOffice SDK
+# WPS WebOffice SDK API Reference
 
-## API Reference
+这是 WPS WebOffice SDK 的 API 参考文档，用于在 Cursor 中提供智能提示和自动补全功能。
+
+## Word API
+
+Word API 提供了对 Word 文档的操作能力，包括文档、段落、表格等操作。
 
 - [活动文档(ActiveDocument)](https://solution.wps.cn/docs/client/api/Word/Document.html)
+  ActiveDocument 对象代表当前打开的文档，提供了对文档内容和属性的访问能力。
+
 - [活动窗口(ActiveWindow)](https://solution.wps.cn/docs/client/api/Word/Window.html)
+  ActiveWindow 对象代表当前活动的文档窗口，可以控制窗口的显示和视图。
+
 - [活动任务窗格(ActivePane)](https://solution.wps.cn/docs/client/api/Word/Pane.html)
 - [页面(Pages)](https://solution.wps.cn/docs/client/api/Word/Pages.html)
 - [视图(View)](https://solution.wps.cn/docs/client/api/Word/View.html)
@@ -36,7 +44,12 @@
 - [水印(WaterMarks)](https://solution.wps.cn/docs/client/api/Word/WaterMarks.html)
 
 ### Excel API
+
+Excel API 提供了对 Excel 工作簿和工作表的操作能力。
+
 - [工作簿(Workbook)](https://solution.wps.cn/docs/client/api/Excel/Workbook.html)
+  Workbook 对象代表一个 Excel 工作簿，提供了对工作簿属性和内容的访问能力。
+
 - [工作表(Sheet)](https://solution.wps.cn/docs/client/api/Excel/Sheet.html)
 - [区域(Range)](https://solution.wps.cn/docs/client/api/Excel/Range.html)
 - [选区(Selection)](https://solution.wps.cn/docs/client/api/Excel/Selection.html)
@@ -45,7 +58,12 @@
 - [字体(Font)](https://solution.wps.cn/docs/client/api/Excel/Font.html)
 
 ### PowerPoint API
+
+PowerPoint API 提供了对演示文稿的操作能力。
+
 - [演示文稿(ActivePresentation)](https://solution.wps.cn/docs/client/api/PPT/Presentation.html)
+  ActivePresentation 对象代表当前打开的演示文稿，提供了对演示文稿内容和属性的访问能力。
+
 - [幻灯片(Slide)](https://solution.wps.cn/docs/client/api/PPT/Slide.html)
 - [形状(Shapes)](https://solution.wps.cn/docs/client/api/PPT/Shapes.html)
 - [放映窗口(SlideShowWindow)](https://solution.wps.cn/docs/client/api/PPT/SlideShowWindow.html)
